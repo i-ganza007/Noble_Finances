@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background-100: #D2F8DC;
+  --color-background-200: #F9F9F9;
+  --color-background-300: #2E4F21;
+  --color-background-400: #FFFFFF;
+  --color-background-500: #F4F7F5;
+  --color-background-600: #D2F8DC;
+  
+  --color-accent-100: #D2F8DC;
+  --color-accent-200: #D7D7D7;
+  
+  --color-hug-100: #2E4F21;
+  --color-hug-200: #FFFFFF;
+  --color-hug-300: #506349;
+  --color-hug-400: #7D9276;
+  --color-hug-500: #D5E4D0;
+  
+  --color-divider-100: #2E4F21;
+  --color-divider-200: #C7C7C7;
+  
+  --font-family-sans: "Rethink Sans", sans-serif;
+  --font-family-rethink: "Rethink Sans", sans-serif;
+}
+
+body {
+  font-family: "Rethink Sans", sans-serif;
+}
