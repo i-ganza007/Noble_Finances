@@ -6,6 +6,10 @@ import Dash from '../assets/Dash.webp'
 import Wallet from '../assets/Wallet.webp'
 import Safe from '../assets/Safe.webp'
 import Testimonials from "../components/Testimonials"
+import Belongs from "../components/Belongs"
+import Prefinal from "../components/Prefinal"
+import Experts from "../components/Experts"
+import Footer from "../components/Footer"
 function Home() {
   return (
     <div className="bg-[#F4F7F5]">
@@ -18,6 +22,10 @@ function Home() {
         <TaxSection imageUrl={Safe}  headText="Bookkeeping & Accounting" description="Maintain organized financial records and provide clear reports to support business growth and financial health."/>
       </div>
       <Testimonials/>
+      <Belongs/>
+      <Prefinal/>
+      <Experts/>
+      <Footer/>
     </div>
   )
 }
